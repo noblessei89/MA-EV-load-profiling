@@ -1,7 +1,7 @@
-# Data-Driven Estimation of Residential EV Charging Loads: Massachusetts
+# Data-Driven Estimation of Residential EV Charging Loads: Boston, MA
 
 ## Overview
-This repository provides realistic residential electric vehicle (EV) charging load data for the Massachusetts area. It includes both the original dataset used for generating synthetic data and the resulting synthetic charging load data.
+This repository provides realistic residential electric vehicle (EV) charging load data for the Boston, MA. It includes both the original dataset used for generating synthetic data and the resulting synthetic charging load data.
 
 ## Features
 ### Training Dataset
@@ -19,23 +19,23 @@ This repository provides realistic residential electric vehicle (EV) charging lo
 - `stop_datetime`: End time of the charging session, formatted as `MM/DD/YY hh:mm`.
 - **Datasource**: [EVWatts Public Database](https://livewire.energy.gov/ds/evwatts/evwatts.public)
 
-#### Houston EV Registration Data (`MAEVCount.xlsx`)
-- Provides detailed EV registration data for Massachusetts.
+#### Boston EV Registration Data (`BostonEVCount.xlsx`)
+- Provides detailed EV registration data for Boston, MA.
 - `zipcode`: The ZIP code associated with each registration.
 - `carname`: The name or model of the registered vehicle.
 - `evcount`: The number of EVs registered within each ZIP code.
 
 #### Registered EV's Battery Spec Data (`BatterySizeData.xlsx`)
-- Provides detailed battery specs of registrated EV data for Massachusetts.
+- Provides detailed battery specs of registrated EV data for Boston, MA.
 - `carname`: The name or model of the registered vehicle.
 - `batterysize`: Battery capacity of each EV (in kWh).
 - **Datasource**: Official manufacturer websites.
 
 ### Synthetic Residential EV Charging Load Data (`ChargingProfilesZipcode.xlsx`)
-- Synthetic data contains 10-minute interval residential EV charging loads for all ZIP codes in Massachusetts.
+- Synthetic data contains 10-minute interval residential EV charging loads for all ZIP codes in Boston, MA.
 - Data Generation:
   - Based on the charging curves derived from the training dataset.
-  - Combined with Houston EV registration data and battery specifications for each EV.
+  - Combined with Boston EV registration data and battery specifications for each EV.
 - Assumptions:
   - Each household is equipped with a Level 2 home charger rated at 7 kW.
 
