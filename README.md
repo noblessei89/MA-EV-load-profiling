@@ -57,7 +57,7 @@ This repository provides realistic residential electric vehicle (EV) charging lo
 ## Support Team
 This project is a collaboration of our group members under the supervision of Prof. Le Xie, Gordon McKay Professor of Electrical Engineering at Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS). The support team keeps processing, correcting and updating the data. The team will also conduct further research analysis and share the latest progress in this repository.
 
-<img width="532" alt="image" src="https://github.com/user-attachments/assets/cfafe245-f9e2-4b36-86c1-d920f9445859">
+<img width="532" alt="image" src="Data/Fig5.png">
 
 ## Contact Us
 Please contact us if you need further technical support or search for cooperation. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
